@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="text-7xl font-light text-red-800">
-        Daily Mood Tracker
+        Daily Mood Trackers
       </h1>
       {confirmationMessage ? (
         <ConfirmationMessage message={confirmationMessage} />
